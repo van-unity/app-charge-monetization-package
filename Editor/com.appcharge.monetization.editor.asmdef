@@ -1,0 +1,16 @@
+{
+    "name": "com.appcharge.monetization.editor",
+    "rootNamespace": "AppCharge.Monetization.Editor",
+    "references": [
+        "GUID:056e478851304d35b6e42dd8ec365eeb"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

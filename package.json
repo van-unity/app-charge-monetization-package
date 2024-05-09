@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "displayName": "AppCharge",
   "description": "Test project for AppCharge interview",
-  "unity": "2022.3.21f1",
+  "unity": "2022.3",
   "author": {
     "name": "Vanik Mkrtchyan"
   }
