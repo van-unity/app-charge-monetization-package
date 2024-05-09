@@ -41,3 +41,33 @@ Error handling is implemented across all layers of the application, with specifi
 The `StoreManager` uses events to communicate purchase results back to other parts of the system, such as UI components or analytics trackers. This loose coupling allows different parts of the game to react to purchase outcomes without direct dependencies on the store's internal logic.
 
 
+## Usage
+
+Integrating the AppCharge monetization package into your Unity project is straightforward. Follow these steps to add the package and set it up:
+
+### Adding the Package
+
+1. **Open your Unity project** and navigate to the `Packages` window.
+2. Click on **`Add package from git URL`**.
+3. Enter the following URL: `https://github.com/van-unity/app-charge-monetization-package.git`
+4. Unity will download and install the package into your project.
+
+### Setting Up the Monetization Manager
+
+After adding the package, you need to add the `AppChargeManager` to your game:
+
+1. In the Unity Editor, go to the **`Packages`** directory in the Project tab.
+2. **Search for the `AppChargeManager` prefab**.
+3. **Drag the `AppChargeManager` prefab** into the initial scene of your game to ensure it is loaded when your game starts.
+
+### Configuring Monetization Settings
+
+To configure the monetization settings:
+
+1. Click on **`AppCharge/Settings`** in the Unity menu bar.
+2. If there is no existing settings asset, Unity will create one. If an asset already exists, it will open for editing in the Inspector.
+3. **Configure your products and settings** as needed using the Unity Inspector.
+
+### Final Steps
+
+Ensure that all settings are correctly configured and that the `AppChargeManager` prefab is active in your game scene. You are now ready to use the monetization functionalities provided by the AppCharge package in your Unity project.
