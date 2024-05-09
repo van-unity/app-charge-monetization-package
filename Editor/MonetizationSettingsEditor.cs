@@ -3,7 +3,7 @@ using UnityEditor;
 using UnityEngine;
 
 namespace AppCharge.Monetization.Editor.Editor {
-    public class MonetizationSettingsEditor : MonoBehaviour
+    public static class MonetizationSettingsEditor
     {
         private const string RESOURCE_PATH = "Assets/AppCharge/Resources";
         private const string SETTINGS_PATH = RESOURCE_PATH + "/MonetizationSettings.asset";
